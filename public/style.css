@@ -8,11 +8,16 @@ body{
 
 .jumbotron {
 /*   background: url("flexhand.jpg"); */
-  background: url(flexhand.jpg);
+  background: url(nhBackground.jpg);
   height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.headerText{
+  color: crimson;
+    background-color: #f4e53f;
+    opacity: 0.8;
 }
 .img-thumbnail{
   height:
