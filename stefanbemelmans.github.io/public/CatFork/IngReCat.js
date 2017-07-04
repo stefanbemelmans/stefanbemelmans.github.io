@@ -13,7 +13,7 @@ class IngReCat extends Component {
           <div className="App-header">
             <h1>Cat</h1>
             <img
-              src={require("./catForkEggTrans.png")}
+              src={require("./images/catForkEggTrans.png")}
               alt="logo"
               className="App-logo"
             />
