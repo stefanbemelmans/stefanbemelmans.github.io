@@ -1,4 +1,5 @@
 "use strict";
+
 // mashape's spoonacular api key -H 'X-Mashape-Key: YmReyxlVdYmshU5Dlyo9XYbBPZtep1KJPXujsnt4Hiueq8H23o' \
 class IngReCat extends Component {
   constructor(props) {

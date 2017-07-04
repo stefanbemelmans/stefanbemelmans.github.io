@@ -1,0 +1,261 @@
+/* You can style your landing page here */
+header{
+  /*background: url('images/flexhand.jpg');*/
+  }
+body{
+  color: white;
+}
+
+.jumbotron {
+/*   background: url("flexhand.jpg"); */
+  background: url(fnhBackgroundSmall.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.headerText{
+  color: crimson;
+    background-color: #f4e53f;
+    opacity: 0.8;
+    width: auto;
+}
+.img-thumbnail{
+  height:
+}
+.main{
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+p{size: 1.5rem;}
+.first{
+  background: url(headcheesedark.jpg);
+}
+
+.first p{
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: #fde6b1;
+}
+
+/*.second{
+  background: url(flexhand.jpg)*/
+
+
+.tribox{
+  height: 400px;
+  /*width: 748px;*/
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /*color: black;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexleft{
+  justify-content: center;
+  /*transition: width 4s ease-in-out;*/
+  background: linear-gradient(180deg blue yellow);
+}
+
+/*.flexleft:hover{
+  width: 100%;
+   }*/
+
+   .flexmiddle{
+     background: url(flexhand.jpg);
+     height: 900px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+
+     /*background-repeat: no-repeat;
+     background-size: contain;
+     color: white;*/
+     /*transition: width 4s;*/
+   }
+   /*.flexmiddle:hover{
+
+     width: 500px;
+   }*/
+
+.flexright{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.breathing{
+  width: 300px;
+  padding: 2px;
+  margin: 10px auto;
+  /*border: 1px solid #d1d1d1;*/
+  -webkit-animation: breathing 4s ease-out infinite normal;
+  animation: breathing 4s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.25);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+/*different breathing patterns*/
+.breathing1{
+  width: 300px;
+  padding: 2px;
+  margin: 10px auto;
+  /*border: 1px solid #d1d1d1;*/
+  -webkit-animation: breathing 3s ease-out infinite normal;
+  animation: breathing 3s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  }
+
+
+@-webkit-keyframes breathing1 {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing1 {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.25);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+
+.weeks{
+  border-bottom: 2px solid black;
+  width: 450px;
+}
+.week2{
+display: table;
+float: right;
+/*transform: rotate(90deg);*/
+/*transform-origin: right;*/
+/*float:right;*/
+
+}
+.nasa{
+  background: url(spaceman.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  height: 500px;
+
+}
+.nasa img{
+  height: 5em;
+  width: 10em;
+}
+
+.second{
+  background: url(flexhand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}
+
+.checkpoint1{
+  background-color: black;
+  height: auto;
+  justify-content: center;
+}
+/*.content{
+  width: 400px;
+  height: 500px;
+  background-color: aliceblue;*/
+}
+/*.pg-canvas{
+  height: 700px;
+  background-color: black
+
+}
+
+.ui-menu { width: 200px; }*/
