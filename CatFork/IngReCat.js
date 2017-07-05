@@ -1,13 +1,6 @@
-import React, { Component } from "react";
-//import octo from "./octoCat.svg";
-import "./App.css";
-import img from "catForkEggTrans.png";
-//catFight app, person has a cat, will combat other cats, cat's votes will be the metric,
-// so get cats with votes. api key: MTkxNTAw\
-//Changed to 'IngReCat', input ingredients, output recipes and cats. eventually will be able to filter
-//results according to cuisine, but lets get it working first
-// mashape's spoonacular api key -H 'X-Mashape-Key: YmReyxlVdYmshU5Dlyo9XYbBPZtep1KJPXujsnt4Hiueq8H23o' \
+"use strict";
 
+// mashape's spoonacular api key -H 'X-Mashape-Key: YmReyxlVdYmshU5Dlyo9XYbBPZtep1KJPXujsnt4Hiueq8H23o' \
 class IngReCat extends Component {
   constructor(props) {
     super(props);
@@ -20,7 +13,7 @@ class IngReCat extends Component {
           <div className="App-header">
             <h1>Cat</h1>
             <img
-              src={require("./catForkEggTrans.png")}
+              src={require("./images/catForkEggTrans.png")}
               alt="logo"
               className="App-logo"
             />
@@ -246,4 +239,6 @@ class CatPic extends Component {
 
 // ReactDOM.render(<IngReCat />, document.querySelector("#fetch"));
 // ReactDOM.render(<CatPic />, document.querySelector("#catPic"));
-export default IngReCat;
+
+ReactDOM.render(<IngReCat />, document.querySelector("#fetch"));
+ReactDOM.render(<CatPic />, document.querySelector("#catPic"));
