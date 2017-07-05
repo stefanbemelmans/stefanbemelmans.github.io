@@ -1,7 +1,7 @@
 "use strict";
 
 // mashape's spoonacular api key -H 'X-Mashape-Key: YmReyxlVdYmshU5Dlyo9XYbBPZtep1KJPXujsnt4Hiueq8H23o' \
-class IngReCat extends Component {
+class IngReCat extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -13,7 +13,7 @@ class IngReCat extends Component {
           <div className="App-header">
             <h1>Cat</h1>
             <img
-              src={require("./images/catForkEggTrans.png")}
+              src="../images/catForkEggTrans.png"
               alt="logo"
               className="App-logo"
             />
@@ -31,7 +31,7 @@ class IngReCat extends Component {
   }
 }
 
-class IngForm extends Component {
+class IngForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -198,7 +198,7 @@ class IngForm extends Component {
   }
 }
 
-class CatPic extends Component {
+class CatPic extends React.Component {
   constructor() {
     super();
     this.state = {

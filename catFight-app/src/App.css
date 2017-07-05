@@ -93,7 +93,7 @@ div {
 
 .btn-class {
   display: inline-block;
-  border: 6px solid #ddddd;
+  border: 6px solid black;
   color: #1f063b;
   border-radius: 0px 0px 50px 50px;
   -webkit-border-radius: 0px 0px 50px 50px;
