@@ -2,6 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
+<<<<<<< HEAD
             "type": "node",
             "request": "attach",
             "name": "Attach to Process",
@@ -19,6 +20,12 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
+=======
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://127.0.0.1:3000",
+>>>>>>> 89896c325bc027e7611647e894f3308c257266ad
             "webRoot": "${workspaceRoot}"
         },
         {

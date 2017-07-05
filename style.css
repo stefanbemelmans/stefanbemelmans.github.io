@@ -14,6 +14,12 @@ body{
   background-size: cover;
   background-position: center;
 }
+
+.headerText {
+  height: 300px;
+  background-color: yellow;
+  opacity: .8;
+}
 .img-thumbnail{
   height:
 }
