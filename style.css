@@ -28,6 +28,7 @@ body{
 
 
 .main1{
+  color: blue;
 background: url(./images/nhTile-burn.png);
 background-size: cover;
 background-position: center;
