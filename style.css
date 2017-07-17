@@ -3,9 +3,17 @@
 body{
   color: white;
 }
+.header{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: lightblue;
+  height: 8rem;
+  width: 100%;
+}
 .headerText {
-  height: 200px;
-  width: 600px;
+  height: 12rem;
+  width: 42rem;
   background-color: #efbe56;
   opacity: .9;
 }
@@ -18,15 +26,25 @@ body{
 }
 .jumbotron {
 /*   background: url("flexhand.jpg"); */
-  /* background: url(./images/nhBackgroundSmall.png); */
-  background: lightblue;
+  background: url(./images/nhBackgroundSmall.png);
+/*   background: lightblue; */
   height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items:center;
+
 }
 
+.carousel{
+  background-image: url(./images/flexhand.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: 42rem;
+}
 
 .main1{
   color: blue;
