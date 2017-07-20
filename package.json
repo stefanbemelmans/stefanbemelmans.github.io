@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "htmllint {*.html,./**/*.html} && stylelint ./**/*.css && eslint .",
     "test": "mocha",
-    "start": "cd . && http-server -c-1",
+    "start": "cd . && http-server -c-1"
     
   },
   "author": "Kevin Colten",
