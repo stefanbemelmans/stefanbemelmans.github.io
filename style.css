@@ -45,13 +45,7 @@ body{
   height: 25rem;
   width: 42rem;
 }
-.bio{
-  height:30rem;
-  width:50rem;
-  background-color: lightseagreen;
-  display:flex;
-  flex-direction: row;
-}
+
 .main1{
   color: blue;
 background: url(./images/nhTile-burn.png);
