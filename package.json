@@ -11,7 +11,7 @@
     "test": "mocha",
     "start": "cd . && http-server -c-1"
   },
-  "author": "Kevin Colten",
+  "author": "Stefan Bemelmans",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AustinCodingAcademy/javascript-workbook/issues"
