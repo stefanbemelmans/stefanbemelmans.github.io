@@ -1,6 +1,6 @@
 import React from 'react';
 import App from 'App';
-import Header from './components'
+import Header from './components/Header';
 
 export default function App(props){
   return(
