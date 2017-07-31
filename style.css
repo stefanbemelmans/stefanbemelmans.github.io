@@ -9,24 +9,29 @@ body{
   align-content: center;
   background-color: lightblue;
   height: 8rem;
-  width: 100%;
+  width: 82%;
+  opacity: .6
 }
-.headerText {
+.headerText  {
+  justify-content: center;
+  align-content: center;
   height: 12rem;
-  width: 42rem;
-  background-color: #efbe56;
-  opacity: .9;
+  width: 82%;
+  
 }
 
-.trans {
-  opacity: 1;
+.headerText > p {
+  align-self: center;
+  color:black;
+  font-size:-webkit-xxx-large;
+  opacity: 2;
 }
 .img-thumbnail{
   height:5;
 }
 .jumbotron {
 /*   background: url("flexhand.jpg"); */
-  background: url(./images/nhBackgroundSmall.png);
+  background: url(./src/images/nhBackgroundSmall.png);
 /*   background: lightblue; */
   height: 900px;
   background-repeat: no-repeat;
