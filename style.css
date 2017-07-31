@@ -33,7 +33,7 @@ body{
 /*   background: url("flexhand.jpg"); */
   background: url(./src/images/nhBackgroundSmall.png);
 /*   background: lightblue; */
-  height: 900px;
+  height: 110rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
