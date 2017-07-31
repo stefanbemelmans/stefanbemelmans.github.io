@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--React Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-    
+
     <link rel="stylesheet" href="style.css" />
-   
+
     <!-- <link rel="stylesheet" href="font-awesome.css" /> -->
     <title></title>
-   
+
   </head>
   <body>
 
   <div id="root"></div>
-  
-  
 
-      
+  <div class='container jumbotron'>
+
+
+
+    <div class="header">
+      <div class"
+        </div>
+
+
+
 
 
     LoremIpsum How Ya Doin?
     <div class="container main1">
-    
+
         <div class="">
           <h1 class="display-3 inline-block" style="border-bottom: 2px solid black;">A bit about me:</h1>
           <h1 class="display-5">
@@ -53,7 +60,7 @@
           </p>
         </div>
         <div class="col-5 nasa">
-            <!-- <img src="spaceman.jpg" class="img-fluid" /> 
+            <!-- <img src="spaceman.jpg" class="img-fluid" />
           <a href="02week/index.html"><img src="nasa-logos.jpg" class="img-thumbnail rounded-circle" /></a>
           <h1 class="display-3 week2 text-right">Week 2</h1>
         </div>
@@ -103,10 +110,10 @@
         </p>
       </div>
 
-    </div> 
+    </div>
      <a href="01week/resume/index.html">Resume</a><br />
     <a href="01week/bio/bioindex.html">Bio Page</a><br/>
-    <a href="02week/index.html">Nasa site</a><br/> 
+    <a href="02week/index.html">Nasa site</a><br/>
     <a href="03week/index.html">Daily Planet</a></br/>
     <a href="03week/flexgrid/index.html">Flexing Daily Flexing Planet Flexing</a></br/>
     <a href="04week/index.html">CHECKPOINT</a> <br />
@@ -123,7 +130,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
- 
+
 <document
   </body>
 </html>
