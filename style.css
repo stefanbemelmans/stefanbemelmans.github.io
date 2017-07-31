@@ -44,7 +44,14 @@ body{
 
 }
 
-.carousel{
+.intro {
+  background-image: url(./src/images/headcheesedark.jpg);
+  height: 30rem;
+  width: 26rem;
+  border: black 2px solid;
+  
+}
+.carousel {
   background-image: url(./images/flexhand.jpg);
   background-size: cover;
   height: 25rem;
