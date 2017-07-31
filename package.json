@@ -36,5 +36,9 @@
     "react-dom": "^15.6.1",
     "webpack-dev-server": "^2.6.1"
   },
+<<<<<<< HEAD
+  "main": "./src/Nirvaindex.js"
+=======
   "main": "./public/index.js"
+>>>>>>> de3718a022547caedf70aae4a0d31187b9d59e67
 }
