@@ -13,7 +13,7 @@ class IngReCat extends React.Component {
           <div className="App-header">
             <h1>Cat</h1>
             <img
-              src="../images/catForkEggTrans.png"
+              src="../src/images/catForkEggTrans.png"
               alt="logo"
               className="App-logo"
             />
