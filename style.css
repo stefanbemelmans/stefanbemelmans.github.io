@@ -1,7 +1,7 @@
 /* You can style your landing page here */
 
 body{
-  color: black;
+  color: white;
 }
 .header{
   display: flex;
@@ -9,31 +9,26 @@ body{
   align-content: center;
   background-color: lightblue;
   height: 8rem;
-  width: 82%;
-  opacity: .6
+  width: 100%;
 }
-.headerText  {
-  justify-content: center;
-  align-content: center;
+.headerText {
   height: 12rem;
-  width: 82%;
-  
+  width: 42rem;
+  background-color: #efbe56;
+  opacity: .9;
 }
 
-.headerText > p {
-  align-self: center;
-  color:black;
-  font-size:-webkit-xxx-large;
-  opacity: 2;
+.trans {
+  opacity: 1;
 }
 .img-thumbnail{
   height:5;
 }
 .jumbotron {
 /*   background: url("flexhand.jpg"); */
-  /* background: url(./src/images/nhBackgroundSmall.png); */
-   background: lightblue; 
-  height: 110rem;
+  background: url(./images/nhBackgroundSmall.png);
+/*   background: lightblue; */
+  height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,14 +39,7 @@ body{
 
 }
 
-.intro {
-  background-image: url(./src/images/headcheesedark.jpg);
-  height: 30rem;
-  width: 26rem;
-  border: black 2px solid;
-  
-}
-.carousel {
+.carousel{
   background-image: url(./images/flexhand.jpg);
   background-size: cover;
   height: 25rem;
@@ -63,7 +51,7 @@ body{
 background: url(./images/nhTile-burn.png);
 background-size: cover;
 background-position: center;
-opacity: .77; 
+opacity: .77;
 
 
 }
@@ -86,7 +74,7 @@ p{size: 1.5rem;}
 .tribox{
   height: 400px;
   /*width: 748px;*/
- 
+
   align-items: center;
   text-align: center;
   /*color: black;*/
