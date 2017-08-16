@@ -165,7 +165,7 @@ class IngForm extends React.Component {
             <img
               className="recPic"
               src={rec.image}
-              alt="http://thecatapi.com/api/images/get?format=src&size=med"
+              alt="https://thecatapi.com/api/images/get?format=src&size=med"
             />
             {this.state.instructions[rec.id]
               ? this.renderInstructions(this.state.instructions[rec.id])
@@ -202,13 +202,13 @@ class CatPic extends React.Component {
   constructor() {
     super();
     this.state = {
-      kitty: 'http://thecatapi.com/api/images/get?format=src&size=med"'
+      kitty: 'https://thecatapi.com/api/images/get?format=src&size=med"'
     };
     this.resetCatPic = this.resetCatPic.bind(this);
   }
 
   resetCatPic() {
-    let newCat = "http://thecatapi.com/api/images/get?format=src&size=med";
+    let newCat = "https://thecatapi.com/api/images/get?format=src&size=med";
     fetch(newCat)
       .then(function(response) {
         console.log(response);
@@ -226,7 +226,7 @@ class CatPic extends React.Component {
   render() {
     return (
       <div>
-        <a href="http://thecatapi.com">
+        <a href="https://thecatapi.com">
           <img className="catPic" src={this.state.kitty} alt="logo" />
         </a>
         <button className="btn-class" onClick={this.resetCatPic}>
