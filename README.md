@@ -8,9 +8,9 @@ If you don't have the time, these pictures recreate the experience of searching 
  ![alt text](./src/images/CatForkCat1Small.png) CATS!
  ![alt text](./src/images/CatForkTitleSmall.png) CatFork! (I put the logo together using GIMP)
  ![alt text](./src/images/CatForkRecipeSearchSmall.png) MMMMMM Tomato Cheese and Herbs!
-![alt text](http://thecatapi.com/api/images/get?format=src&size=small") New Cat!
+![alt text](http://thecatapi.com/api/images/get?format=src&size=medium) New Cat!
 ![alt text](./src/images/CatForkRecipes.png) 
  OOOh Look at the Recipes! I know the PizzaBites look good but it's really just tomato sauce and cheese on a cracker.  
  That heirloom salad looks great! If I press the button....
  ![alt text](./src/images/CatForkRecipeSmall.png)
-![alt text](http://thecatapi.com/api/images/get?format=src&size=small") New Cat!
+![alt text](http://thecatapi.com/api/images/get?format=src&size=medium) New Cat!
