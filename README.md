@@ -19,10 +19,10 @@ __Yay CatFork!__
 
 That's CatFork! An excellent excercise in the handling of API calls and URL variables within the React framework.
 Not a bad recipe app either. I'm expanding the functionality for a class project and comming soon will be:
-+Login/User Base 
-+Favorite Recipe/Cats Folders
-+Expanding Search Functionality To Include Nutritional Info, Cusine, Ingredient Substitution
-+Ingredient/Recipe Conversion, Including Pan-Size Adjustment For Things In Rimmed Pans! (something I've always wanted)
+* Login/User Base 
+* Favorite Recipe/Cats Folders
+* Expanding Search Functionality To Include Nutritional Info, Cusine, Ingredient Substitution
+* Ingredient/Recipe Conversion, Including Pan-Size Adjustment For Things In Rimmed Pans! (something I've always wanted)
 
 Feel free to contact me with suggestions or whatever!
 
