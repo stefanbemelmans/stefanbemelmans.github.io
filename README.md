@@ -5,4 +5,8 @@ I am a student at the Austin Coding Academy, in the advanced class of the JavaSc
 This is an app I built at the end of the second semester, about 2 months ago. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.api) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](./CatFork.index.html)
 The newCat button gets a new random cat. 
 If you don't have the time, these pictures recreate the experience of searching for "tomato, cheese, herbs", please enjoy:
- ![alt text](./src/images/CatForkCat1Small.png) ![alt text](./src/images/CatForkTitleSmall.png) ![alt text](./src/images/CatForkRecipeSearchSmall.png) ![alt text](./src/images/CatForkRecipeSmall.png)
+ ![alt text](./src/images/CatForkCat1Small.png)
+  CATS! ![alt text](./src/images/CatForkTitleSmall.png) CatFork! ![alt text](./src/images/CatForkRecipeSearchSmall.png) MMMMMM Tomato Cheese and Herbs!
+  ![alt text](./src/images/CatForkRecipe.png) OOOh Look at the Recipes! If I press the button....
+  I know the PizzaBites look good but it's really just tomato sauce and cheese on a cracker.
+   ![alt text](./src/images/CatForkRecipeSmall.png)
