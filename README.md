@@ -24,7 +24,8 @@ Not a bad recipe app either. I'm expanding the functionality for a class project
 * Expanding Search Functionality To Include Nutritional Info, Cusine, Ingredient Substitution
 * Ingredient/Recipe Conversion, Including Pan-Size Adjustment For Things In Rimmed Pans! (something I've always wanted)
 
-Feel free to contact me with suggestions or whatever!
+Feel free to contact me.
+stefanbemelmans898@gmail.com
 
 #Websites
 
