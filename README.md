@@ -13,6 +13,8 @@ If you don't have the time, these pictures recreate the experience of searching 
  __OOOh Look at the Recipes!__ I know the PizzaBites look good but it's really just tomato sauce and cheese on a cracker.  
  __That heirloom salad looks great! If I press the button....__
  ![alt text](./src/images/CatForkRecipeSmall.png)
+__Yay CatFork!__
+ 
 ![alt text](http://thecatapi.com/api/images/get?format=src&size=medium) __New Cat!__ Ideally it's a different cat than the one immediately above.
 
 That's CatFork! An excellent excercise in the handling of API calls and URL variables within the React framework.
