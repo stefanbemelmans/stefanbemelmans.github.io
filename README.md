@@ -4,4 +4,4 @@ I am a student at the Austin Coding Academy, in the advanced class of the JavaSc
 # CatFork!
 This is an app I built at the end of the second semester, about 2 months ago. I use JS6, Babel and JSX in a React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.api) api, queriing the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](/CatFork.index.html)
 The newCat button gets a new random cat. 
-TL;DR; ![alt text](./src/images/CatForkCat1.png) ![alt text](./src/images/CatForkTitleSmall.png) ![alt text](./src/images/CatForkRecipeSearchSmall.png) ![alt text](./src/images/CatForkRecipeSmall.png)
+TL;DR; ![alt text](./src/images/CatForkCat1Small.png) ![alt text](./src/images/CatForkTitleSmall.png) ![alt text](./src/images/CatForkRecipeSearchSmall.png) ![alt text](./src/images/CatForkRecipeSmall.png)
