@@ -2,7 +2,7 @@
 I am a student at the Austin Coding Academy, in the advanced class of the JavaScript Full-Stack Engineering Program, about a month away from graduating. This repo contains what I feel are the highlights of my understanding of the material so far. I am about a month away from graduation as of this writing and it's the middle of August 2017. 
 
 # CatFork!
-This is an app I built at the end of the second semester, about 2 months ago. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](./CatFork.index.html)
+This is an app I built at the end of the second semester, about 2 months ago. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
 The newCat button gets a new random cat. 
 If you don't have the time, these pictures recreate the experience of searching for "tomato, cheese, herbs", please enjoy:
  ![alt text](./src/images/CatForkCat1Small.png) __CATS!__
@@ -24,6 +24,9 @@ Not a bad recipe app either. I'm expanding the functionality for a class project
 * Expanding Search Functionality To Include Nutritional Info, Cusine, Ingredient Substitution
 * Ingredient/Recipe Conversion, Including Pan-Size Adjustment For Things In Rimmed Pans! (something I've always wanted)
 
+[here's the link to CatFork again incase now you want to experience it firsthand](https://stefanbemelmans.github.io/CatFork/index.html)
+It's cool...
+And actually I AM looking for a new job...
 Feel free to contact me.
 stefanbemelmans898@gmail.com
 
