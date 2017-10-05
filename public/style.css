@@ -1,6 +1,8 @@
 /* You can style your landing page here */
 .wrapper {
   display: grid;
+  grid-template-columns: repeat(6 1fr);
+  grid-template-rows: repeat(6 1fr);
 }
 body{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -17,6 +19,12 @@ body{
   height: 18rem;
   width: 100%;
   text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  grid-column-start: 1;
+  grid-column-end: 7;
+  z-index: 2;
 }
 .headerText {
   height: 14rem;
@@ -26,8 +34,14 @@ body{
   text-align: center;
   padding: 2px;
 }
-}
 
+.checkpoint2 {
+  grid-row: 3;
+  background-color: #288BAC;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
 .trans {
   opacity: 1;
 }
@@ -35,6 +49,7 @@ body{
   height:5;
 }
 .jumbotron {
+  z-index: 1;
 /*   background: url("flexhand.jpg"); */
   background: url("./nhLake.jpg");
 /*   background: lightblue; */
@@ -42,8 +57,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 7; 
   text-align: center;
   /* justify-content: space-around; */
   /* align-items:center; */
