@@ -26,6 +26,11 @@ body{
   grid-column-end: 7;
   z-index: 2;
 }
+.mainThing {
+  background: url("./nhLake.jpg");
+  background-size: cover;
+
+}
 .headerText {
   height: 14rem;
   width: 70rem;
@@ -51,12 +56,12 @@ body{
 .jumbotron {
   z-index: 1;
 /*   background: url("flexhand.jpg"); */
-  background: url("./nhLake.jpg");
+  /* background: url("./nhLake.jpg"); */
 /*   background: lightblue; */
   height: 900px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   grid-row-start: 1;
   grid-row-end: 7;
   grid-column-start: 1;
