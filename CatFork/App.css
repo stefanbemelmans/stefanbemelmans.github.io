@@ -103,9 +103,10 @@ div {
 }
 /*actual picture*/
 .catPic {
+  display: flex;
   margin: 10px;
   width: auto;
-  height: 475px;
+  height: auto;
 }
 .form {
   display: flex;

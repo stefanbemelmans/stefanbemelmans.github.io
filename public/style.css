@@ -1,21 +1,28 @@
 /* You can style your landing page here */
 
 body{
-  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #d1eef9;
 }
 .header{
   display: flex;
   justify-content: center;
   align-content: center;
   background-color: lightblue;
-  height: 8rem;
+  height: 18rem;
   width: 100%;
 }
 .headerText {
-  height: 12rem;
-  width: 42rem;
+  height: 14rem;
+  width: 70rem;
   background-color: #efbe56;
-  opacity: .9;
+  margin: 2rem;
+  text-align: center;
+  padding: 2px;
+}
 }
 
 .trans {
@@ -26,7 +33,7 @@ body{
 }
 .jumbotron {
 /*   background: url("flexhand.jpg"); */
-  background: url(./images/nhBackgroundSmall.png);
+  background: url("./nhLake.jpg");
 /*   background: lightblue; */
   height: 900px;
   background-repeat: no-repeat;
@@ -34,8 +41,9 @@ body{
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items:center;
+  text-align: center;
+  /* justify-content: space-around; */
+  /* align-items:center; */
 
 }
 
