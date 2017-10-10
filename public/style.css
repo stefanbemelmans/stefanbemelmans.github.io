@@ -2,7 +2,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: 1fr, auto;
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   background-image: url("nhLake.jpg");
@@ -12,7 +12,8 @@ body{
   font-size: 20px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #d1eef9;
+  background: url("./nhLake.jpg");
+  background-size: cover;
 }
 .header {
   margin: 2rem;
@@ -24,10 +25,10 @@ body{
   width: 100%; */
   text-align: center;
   grid-row: 1;
-  column-span: all;
+
   /* grid-row-end: 2; */
-  /* grid-column-start: 2;
-  grid-column-end: 5; */
+  grid-column-start: 2;
+  grid-column-end: 12;
   z-index: 2;
 }
 
@@ -36,6 +37,7 @@ body{
   /*grid-row-end: 6;*/
   grid-column-start: 6;
   grid-column-end: 9;
+  background-color: #41B9E0
 }
 .mainThing {
  
@@ -59,7 +61,7 @@ body{
   grid-row: 2;
   grid-column-start: 2;
   grid-column-end: 5;
-  background-color: transparent;
+  background-color: #42A1C0;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
@@ -71,6 +73,7 @@ body{
   grid-column-end: 6;
   justify-content: center;
   align-items: stretch; 
+  background-color: #42A1C0;
 }
 .trans {
   opacity: 1;
@@ -79,7 +82,7 @@ body{
   height:5;
 }
 .jumbotron {
-  background: url("./nhLake.jpg");
+  
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
