@@ -2,7 +2,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: auto;
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   background-image: url("nhLake.jpg");
@@ -23,18 +23,19 @@ body{
   /* height: 18rem;
   width: 100%; */
   text-align: center;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 3;
-  grid-column-end: 11;
+  grid-row: 1;
+  column-span: all;
+  /* grid-row-end: 2; */
+  /* grid-column-start: 2;
+  grid-column-end: 5; */
   z-index: 2;
 }
 
 .section {
-  grid-row-start:5;
-  grid-row-end: 6;
-  grid-column-start: 4;
-  grid-column-end: 8;
+  grid-row: 2;
+  /*grid-row-end: 6;*/
+  grid-column-start: 6;
+  grid-column-end: 9;
 }
 .mainThing {
  
@@ -61,7 +62,15 @@ body{
   background-color: transparent;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
 
+.games {
+  display: flex;
+  grid-row: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  justify-content: center;
+  align-items: stretch; 
 }
 .trans {
   opacity: 1;
