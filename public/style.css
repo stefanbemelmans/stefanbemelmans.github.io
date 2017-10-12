@@ -32,11 +32,11 @@ body{
   z-index: 2;
 }
 
-.section {
+.catFork {
   grid-row: 2;
   /*grid-row-end: 6;*/
-  grid-column-start: 9;
-  grid-column-end: 13;
+  grid-column-start: 8;
+  grid-column-end: 12;
   background-color: #41B9E0;
   align-content: center;
   justify-content: center;
@@ -56,13 +56,13 @@ body{
 }
 
 .checkpoint2 {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   flex-wrap: wrap;
   height: min-content;
   grid-row: 2;
-  grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column: 2;
+  /*grid-column-end: 5;*/
   background-color: #42A1C0;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
@@ -72,9 +72,9 @@ body{
 
 .games {
   display: flex;
-  grid-row: 3;
+  grid-row: 2;
   grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-end: 5;
   justify-content: center;
   align-items: stretch; 
   background-color: #42A1C0;
@@ -83,7 +83,8 @@ body{
   opacity: 1;
 }
 .img-thumbnail{
-  height:5;
+  height: 5rem;
+  width: 5rem;
 }
 .jumbotron {
   
