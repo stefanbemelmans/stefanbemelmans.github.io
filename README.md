@@ -1,5 +1,5 @@
 # Stefan Bemelmans Portfolio Repo!
-[actual webpage](https://stefanbemelmans.github.io/public/index.html)
+[Actual webpage (under construction)](https://stefanbemelmans.github.io/public/index.html)
 I am a graduate of the Austin Coding Academy and am currently a T.A. in the advanced class of the JavaScript Full-Stack Engineering Program. This repo contains what I feel are the highlights of my understanding of the material so far. 
 
 # CatFork!
