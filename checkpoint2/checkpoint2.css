@@ -44,7 +44,7 @@ nav a{
 
 }
 .awards{
-  background:url(http://foundry.mediumra.re/img/wine12.jpg);
+  background:url(https://foundry.mediumra.re/img/wine12.jpg);
   height: 1100px;
   filter:brightness(67%);
   background-size: cover;
@@ -57,7 +57,7 @@ nav a{
 }
 
 .pour{
-  background: url("http://foundry.mediumra.re/img/wine15.jpg");
+  background: url("https://foundry.mediumra.re/img/wine15.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
