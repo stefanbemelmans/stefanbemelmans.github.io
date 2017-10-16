@@ -11,14 +11,13 @@ class IngReCat extends React.Component {
       <div className="App">
         <div className="row">
           <div className="App-header">
-            <h1>Cat</h1>
+           
             <img
               src="../public/CatForkTitleSmall.png"
               alt="logo"
               className="App-logo"
             />
-            <div className="app-side">
-              <h1>Fork</h1>
+            
             </div>
           </div>
         </div>
