@@ -3,8 +3,10 @@
 I am a graduate of the Austin Coding Academy and am currently a T.A. in the advanced class of the JavaScript Full-Stack Engineering Program. This repo contains what I feel are the highlights of my understanding of the material so far. 
 
 # CatFork!
-This is an app I built at the end of the second semester, about 2 months ago. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
+This is an app I built at the end of the second semester, in July or so. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
 The newCat button gets a new random cat. 
+
+[Here's a link to my repo](https://github.com/stefanbemelmans)
 If you don't have the time, these pictures recreate the experience of searching for "tomato, cheese, herbs", please enjoy:
  ![alt text](./src/images/CatForkCat1Small.png) __CATS!__
  ![alt text](./src/images/CatForkTitleSmall.png) __CatFork! (I put the logo together using GIMP)__
@@ -29,7 +31,7 @@ Not a bad recipe app either. I'm expanding the functionality for a class project
 It's cool...
 And actually I AM looking for a new job...
 Feel free to contact me for any reason.
-
+[Here's my repo](https://github.com/stefanbemelmans.git)
 stefanbemelmans898@gmail.com
 
 #Websites
