@@ -23,7 +23,7 @@ class IngReCat extends React.Component {
           </div>
         </div>
 
-        <h1 className="App-intro">Welcomes You</h1>
+        {/* <h1 className="App-intro">Welcomes You</h1> */}
         <CatPic />
         <IngForm />
       </div>
