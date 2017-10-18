@@ -33,9 +33,9 @@
   height: 80px;
 
   /*animation: App-logo-spin infinite 20s linear;*/
-  height: 264px;
+  height: 25rem;
 
-  width: 194px;
+  width: 25rem;
 }
 
 .row {
@@ -53,10 +53,11 @@
 .App-header {
   flex-direction: row;
   justify-content: center;
-  margin-top: 20px;
-  background-color: #cd169b;
-  height: 300px;
-  width: 320px;
+  margin-top: 10rem;
+  margin-bottom: 13rem;
+  /* background-color: #cd169b; */
+  /* height: 25rem; */
+  /* width: 320px; */
   padding: 20px;
   color: white;
 }

@@ -8,24 +8,24 @@ class IngReCat extends React.Component {
   }
   render() {
     return (
+      <div>
       <div className="App">
         <div className="row">
           <div className="App-header">
-            <h1>Cat</h1>
+           
             <img
-              src="../src/images/catForkEggTrans.png"
+              src="../public/CatForkTitleSmall.png"
               alt="logo"
-              className="App-logo"
+              
             />
-            <div className="app-side">
-              <h1>Fork</h1>
+            
             </div>
           </div>
         </div>
 
-        <h1 className="App-intro">Welcomes You</h1>
-        <CatPic />
+        {/* <h1 className="App-intro">Welcomes You</h1> */}
         <IngForm />
+        <CatPic />
       </div>
     );
   }
