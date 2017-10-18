@@ -3,7 +3,7 @@
 I am a graduate of the Austin Coding Academy and am currently a T.A. in the advanced class of the JavaScript Full-Stack Engineering Program. [This repo](https://github.com/stefanbemelmans) contains my work and this file contains what the highlights of my understanding of the material were at about the halfway point of the curriculum. Since that time I have refactored to use the redux and express libraries. That repo is [here](https://github.com/stefanbemelmans/catfork/tree/master/src).
 
 # CatFork!
-This is an app I built at the end of the second semester, in July or so. I use JS6, Babel and JSX in the React framework to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
+This is an app I built at the end of the second semester, in July or so. I use JS6, HTML5, CSS3, Babel and JSX using the React library to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
 The newCat button gets a new random cat. 
 
 
@@ -20,7 +20,7 @@ __Yay CatFork!__
  
 ![alt text](http://thecatapi.com/api/images/get?format=src&size=medium) __New Cat!__ Ideally it's a different cat than the one immediately above.
 
-That's CatFork! An excellent excercise in the handling of API calls and URL variables within the React framework.
+That's CatFork! An excellent excercise in the handling of API calls and URL variables using the React libary.
 Not a bad recipe app either. I'm expanding the functionality for a class project and coming soon will be:
 * Login/User Base 
 * Favorite Recipe/Cats Folders
