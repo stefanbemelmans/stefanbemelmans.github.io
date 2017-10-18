@@ -16,7 +16,7 @@ class IngReCat extends React.Component {
             <img
               src="../public/CatForkTitleSmall.png"
               alt="logo"
-              className="App-logo"
+              
             />
             
             </div>

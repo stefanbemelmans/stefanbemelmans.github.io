@@ -53,10 +53,11 @@
 .App-header {
   flex-direction: row;
   justify-content: center;
-  margin-top: 20px;
-  background-color: #cd169b;
-  height: 300px;
-  width: 320px;
+  margin-top: 10rem;
+  margin-bottom: 13rem;
+  /* background-color: #cd169b; */
+  /* height: 25rem; */
+  /* width: 320px; */
   padding: 20px;
   color: white;
 }
