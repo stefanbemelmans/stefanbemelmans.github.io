@@ -24,8 +24,8 @@ class IngReCat extends React.Component {
         </div>
 
         {/* <h1 className="App-intro">Welcomes You</h1> */}
-        <CatPic />
         <IngForm />
+        <CatPic />
       </div>
     );
   }
