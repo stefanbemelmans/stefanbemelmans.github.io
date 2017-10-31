@@ -2,7 +2,7 @@
   "name": "advanced-homework-2",
   "homepage": "https://stefanbemelmans.github.io/advanced-hangman-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "prop-types": "^15.5.8",
     "random-words": "^0.0.1",
