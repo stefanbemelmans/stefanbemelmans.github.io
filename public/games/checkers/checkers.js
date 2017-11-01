@@ -1,56 +1,56 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <script type="text/javascript" src="./checkers.js">
-  </script>
-</head>
-
-<body>
-
-</body>
-
-</html>
-
-
-<!-- <script>
 'use strict';
 
-<!const assert = require('assert');
+const assert = require('assert');
 const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
-}); -->
+});
 
 
-<!-- function Checker(color) {
-  (this.color === 'white')?this.symbol = String.fromCharCode(0x125CB):this.symbol = String.fromCharCode(0x125CF)
+function Checker(color) {
+  (this.color === 'white') ? this.symbol = String.fromCharCode(0x125CB): this.symbol = String.fromCharCode(0x125CF)
   // Your code here
 }
 //working on checker insertion, still need to sort out referencing board location.
 function Board() {
   this.grid = [];
   this.checkers = [];
-  this.createCheckers = function(){
+  this.createCheckers = function () {
     let whitePositions = [
-      [0, 1], [0, 3], [0, 5], [0, 7],
-      [1, 0], [1, 2], [1, 4], [1, 6],
-      [2, 1], [2, 3], [2, 5], [2, 7]
+      [0, 1],
+      [0, 3],
+      [0, 5],
+      [0, 7],
+      [1, 0],
+      [1, 2],
+      [1, 4],
+      [1, 6],
+      [2, 1],
+      [2, 3],
+      [2, 5],
+      [2, 7]
     ];
     let blackPositions = [
-      [5, 0], [5, 2], [5, 4], [5, 6],
-      [6, 1], [6, 3], [6, 5], [6, 7],
-      [7, 0], [7, 2], [7, 4], [7, 6]
+      [5, 0],
+      [5, 2],
+      [5, 4],
+      [5, 6],
+      [6, 1],
+      [6, 3],
+      [6, 5],
+      [6, 7],
+      [7, 0],
+      [7, 2],
+      [7, 4],
+      [7, 6]
     ];
-    for(let i = 0; i < 11; i ++){
+    for (let i = 0; i < 11; i++) {
       this.grid.push(whitePositions[i][row][col])
     }
   }
   // creates an 8x8 array, filled with null values
-  this.createGrid = function() {
+  this.createGrid = function () {
     // loop to create the 8 rows
     for (let row = 0; row < 8; row++) {
       this.grid[row] = [];
@@ -62,7 +62,7 @@ function Board() {
   };
 
   // prints out the board
-  this.viewGrid = function() {
+  this.viewGrid = function () {
     // add our column numbers
     let string = "  0 1 2 3 4 5 6 7\n";
     for (let row = 0; row < 8; row++) {
@@ -89,17 +89,18 @@ function Board() {
 
   // Your code here
 }
+
 function Game() {
 
-  this.board = new Board(); -->
+  this.board = new Board();
 
-<!-- this.start = function() {
+  this.start = function () {
     this.board.createGrid();
     // Your code here
   };
-} -->
+}
 
-<!-- function getPrompt() {
+function getPrompt() {
   game.board.viewGrid();
   rl.question('which piece?: ', (whichPiece) => {
     rl.question('to where?: ', (toWhere) => {
@@ -107,16 +108,16 @@ function Game() {
       getPrompt();
     });
   });
-} -->
+}
 
-<!-- const game = new Game();
+const game = new Game();
 game.start();
 board.createGrid();
-board.createCheckers(); -->
+board.createCheckers();
 
 // Tests
 
-<!-- if (typeof describe === 'function') {
+if (typeof describe === 'function') {
   describe('Game', () => {
     it('should have a board', () => {
       assert.equal(game.board.constructor.name, 'Board');
@@ -145,8 +146,4 @@ board.createCheckers(); -->
   });
 } else {
   getPrompt();
-} -->
-
-<!-- </script> -->
-
-  <!-- </script> -->
+}

@@ -1,7 +1,7 @@
 'use strict';
 
-const assert = require('assert');
-const readline = require('readline');
+//const assert = require('assert');
+//const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
@@ -176,39 +176,41 @@ function getPrompt() {
 
 const game = new Game();
 game.start();
-// board.createCheckers();
-// game.viewGrid();
-// game.moveChecker(52,43);
-// game.viewGrid();
-// Tests
+board.createCheckers();
+game.viewGrid();
+game.moveChecker(52,43);
+game.viewGrid();
 
-if (typeof describe === 'function') {
-  describe('Game', () => {
-    it('should have a board', () => {
-      assert.equal(game.board.constructor.name, 'Board');
-    });
-    it('board should have 24 checkers', () => {
-      assert.equal(game.board.checkers.length, 24);
-    });
-  });
 
-  describe('Game.moveChecker()', function () {
-    it('should move a checker', function () {
-      assert(!game.board.grid[4][1]);
-      game.moveChecker('50', '41');
-      assert(game.board.grid[4][1]);
-      game.moveChecker('21', '30');
-      assert(game.board.grid[3][0]);
-      game.moveChecker('52', '43');
-      assert(game.board.grid[4][3]);
-    });
-    it('should be able to jump over and kill another checker', () => {
-      game.moveChecker('30', '52');
-      assert(game.board.grid[5][2]);
-      assert(!game.board.grid[4][1]);
-      assert.equal(game.board.checkers.length, 23);
-    });
-  });
-} else {
-  getPrompt();
-}
+//Tests
+
+// if (typeof describe === 'function') {
+//   describe('Game', () => {
+//     it('should have a board', () => {
+//       assert.equal(game.board.constructor.name, 'Board');
+//     });
+//     it('board should have 24 checkers', () => {
+//       assert.equal(game.board.checkers.length, 24);
+//     });
+//   });
+
+//   describe('Game.moveChecker()', function () {
+//     it('should move a checker', function () {
+//       assert(!game.board.grid[4][1]);
+//       game.moveChecker('50', '41');
+//       assert(game.board.grid[4][1]);
+//       game.moveChecker('21', '30');
+//       assert(game.board.grid[3][0]);
+//       game.moveChecker('52', '43');
+//       assert(game.board.grid[4][3]);
+//     });
+//     it('should be able to jump over and kill another checker', () => {
+//       game.moveChecker('30', '52');
+//       assert(game.board.grid[5][2]);
+//       assert(!game.board.grid[4][1]);
+//       assert.equal(game.board.checkers.length, 23);
+//     });
+//   });
+// } else {
+//   getPrompt();
+// }
