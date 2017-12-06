@@ -93,9 +93,12 @@ div {
   background-size: contain;
   background-repeat: no-repeat; */
   max-width: 30rem;
-  max-height: 75rem;
+  max-height: 10%;
+  min-width: 16rem;
+  min-height: 7%;
   margin: .5rem;
-  width: 86%;
+
+  width: 93%;
   height: auto;
   align-items: center;
   border-radius: 6%;
