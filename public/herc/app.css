@@ -112,11 +112,20 @@ div {
   background-image: linear-gradient(90deg, #132c4a, #142535);
   width: 112%;
   height: 3rem;
-  margin-top: 1px;
+  margin-top: 5px;
   font-size: 1.2rem;
   font-weight: 600;
   border: none;
   border-radius: 6px;
+  font-family: "din pro";
+  color: white;
+}
+  
+#vendItem {
+  font-size: 18px; 
+  font-family: Din Pro;
+  color: white; 
+
 }
 
 .vendorInput:focus{
