@@ -1,10 +1,11 @@
 html {
-  width: 112%;
+  width: 100%;
   min-height: 100%;
 }
 body {
   margin: auto;
   display: flex;
+  flex: 1;  
   width: -webkit-fill-available;
   /* height: 100%;
   width: 100%; */
@@ -86,6 +87,7 @@ div {
 
 .items {
   align-items: center;
+  flex-direction: column;
 
 }
 .vaultLabel {
@@ -115,6 +117,10 @@ div {
   font-weight: 600;
   border: none;
   border-radius: 6px;
+}
+
+.vendorInput:focus{
+  border: solid 1px gold;
 }
 
 .icon{
@@ -156,3 +162,8 @@ div {
 
   border: none;
 }
+
+::-webkit-input-placeholder { color:#fff; font-family: din pro;}
+::-moz-placeholder { color:#fff; font-family: din pro; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; font-family: din pro; } /* ie */
+input:-moz-placeholder { color:#fff; font-family: din pro; }
