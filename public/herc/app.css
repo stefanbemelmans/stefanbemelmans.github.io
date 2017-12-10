@@ -129,7 +129,7 @@ div {
 }
 
 .vendorInput:focus{
-  border: solid 1px gold;
+  border: solid 1px #ffdc62;
 }
 
 .icon{
