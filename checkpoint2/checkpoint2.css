@@ -14,7 +14,7 @@ nav a{
   color: white;
 }
 .main-container{
-  background: url("img/wine-bg.jpg");
+  background: url("./img/wine-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -23,7 +23,7 @@ nav a{
   filter: brightness(80%);
 }
 .first{
-  background: url("img/wine13.jpg");
+  background: url("./img/wine13.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;

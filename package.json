@@ -1,7 +1,7 @@
 {
-  "name": "javascript-workbook",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Austin Coding Academy - JavaScript Workbook",
+  "description": "Stefan Bemelmans: Portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stefanbemelmans/github.io.git"
