@@ -1,4 +1,18 @@
 /* You can style your landing page here */
+
+/* 
+starting new styles for refactor, using web bootstrap
+*/
+
+.bg-header {
+  background-size: cover;
+  background-image: url("./nhLake.jpg");
+  /* background-size: contain; */
+}
+.headShot {
+  width: 15rem;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 4, 1fr;
