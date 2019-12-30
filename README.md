@@ -27,7 +27,7 @@ Not a bad recipe app either. I'm expanding the functionality for a class project
 * Expanding Search Functionality To Include Nutritional Info, Cusine, Ingredient Substitution
 * Ingredient/Recipe Conversion, Including Pan-Size Adjustment For Things In Rimmed Pans! (something I've always wanted)
 * Suggest Something!
-[here's the link to CatFork again incase now you want to experience it firsthand](https://stefanbemelmans.github.io/CatFork/index.html)
+[here's the link to CatFork again incase now you want to experience it firsthand](https://stefanbemelmans.github.io/catfork)
 It's cool...
 And actually I AM looking for a new job...
 Feel free to contact me for any reason.
