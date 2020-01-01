@@ -1,9 +1,9 @@
 # Stefan Bemelmans Portfolio Repo!
-[Actual webpage (under construction)](https://stefanbemelmans.github.io/public/index.html)
-I am a graduate of the Austin Coding Academy and am currently a T.A. in the advanced class of the JavaScript Full-Stack Engineering Program. [This repo](https://github.com/stefanbemelmans) contains my work and this file contains what the highlights of my understanding of the material were at about the halfway point of the curriculum. Since that time I have refactored to use the redux and express libraries. That repo is [here](https://github.com/stefanbemelmans/catfork/tree/master/src).
+
+[New Portfolio!! (under construction)](https://stefanbemelmans.github.io/Portfolio/)
 
 # CatFork!
-This is an app I built at the end of the second semester, in July or so. I use JS6, HTML5, CSS3, Babel and JSX using the React library to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
+This is an app I built at the end of the second semester, in July or so. React and Redux to deliver a recipe search experience based on enterable ingredients. The process relies on 2 API calls. The substance is the call to the [Spoonacular](https://spoonacular.com) api, querying the ingredients and returning the recipes. The second is the "cat" in CatFork. I discovered the [catApi](https://www.thecatapi.com) and I figured...because the internet. [Check It Out](https://stefanbemelmans.github.io/CatFork/index.html)
 The newCat button gets a new random cat. 
 
 
